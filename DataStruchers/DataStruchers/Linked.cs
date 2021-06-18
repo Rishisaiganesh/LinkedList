@@ -58,6 +58,10 @@ namespace DataStruchers
             node1.next = node;
 
         }
+        public void Pop()
+        {
+            head = head.next;
+        }
             
     }
 }
