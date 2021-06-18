@@ -15,8 +15,8 @@ namespace DataStruchers
             list.Adding(1,30);
             Console.WriteLine("list After Adding");
             list.Display();
-            list.Pop();
-            Console.WriteLine("List after Poping");
+            list.Delite(2);
+            Console.WriteLine("List after Deliting");
             list.Display();
         }
     }

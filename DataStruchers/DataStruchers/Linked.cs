@@ -62,6 +62,22 @@ namespace DataStruchers
         {
             head = head.next;
         }
+        public void Delite(int index)
+        {
+            if(index == 0)
+            {
+                head = head.next;
+            }
+            else
+            {
+                Node node1 = head;
+                for(int i = 0; i< index -1; i++)
+                {
+                    node1 = node1.next;
+                }
+                node1.next = node1.next.next;
+            }
+        }
             
     }
 }
